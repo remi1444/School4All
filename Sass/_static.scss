@@ -1,0 +1,42 @@
+$white-bg: #f2f2f2cc;
+$yellow-bg: #dea103;
+$black-bg: #111111;
+$margin: 1.5rem;
+$margin-S: 0.5rem;
+$padding-XXL: 2rem;
+$padding-XL: 2rem;
+$padding-L: 1rem;
+$padding-gen: 1rem;
+$padding-S: 0.5rem;
+
+
+$font-weight: (
+    "regular": 300,
+    "medium": 500,
+    "large": 700
+);
+
+$font-size: (
+    "regular": 1rem,
+    "medium": 1.5rem,
+    "large": 2rem
+);
+
+$line-height: (
+    "regular": 1rem,
+    "medium": 2rem,
+    "large": 3rem
+);
+
+@mixin padding {
+    $padding-gen: 1rem;
+}
+@mixin yellow {
+  color: #DEA103;
+}
+@mixin white {
+color: rgba(242, 242, 242, 0.8);
+};
+@mixin black {
+color: #111111;
+};
