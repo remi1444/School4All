@@ -9,34 +9,39 @@ $padding-L: 1rem;
 $padding-gen: 1rem;
 $padding-S: 0.5rem;
 
-
 $font-weight: (
-    "regular": 300,
-    "medium": 500,
-    "large": 700
+  "regular": 300,
+  "medium": 500,
+  "large": 700,
 );
 
 $font-size: (
-    "regular": 1rem,
-    "medium": 1.5rem,
-    "large": 2rem
+  "regular": 1rem,
+  "medium": 1.5rem,
+  "large": 2rem,
 );
 
 $line-height: (
-    "regular": 1rem,
-    "medium": 2rem,
-    "large": 3rem
+  "regular": 1rem,
+  "medium": 2rem,
+  "large": 3rem,
 );
 
 @mixin padding {
-    $padding-gen: 1rem;
+  $padding-gen: 1rem;
 }
 @mixin yellow {
-  color: #DEA103;
+  color: #dea103;
 }
 @mixin white {
-color: rgba(242, 242, 242, 0.8);
-};
+  color: rgba(242, 242, 242, 0.8);
+}
 @mixin black {
-color: #111111;
-};
+  color: #111111;
+}
+
+@mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} ;
