@@ -97,14 +97,14 @@
   height: 20px;
   // background-color: #dea103;
   margin: 5px;
-  margin-right: 0;
+  margin-right: 0.1rem;
   cursor: pointer;
 
   div {
     width: 30px;
     height: 15px;
     margin: 3px;
-    margin-right: 0;
+    // margin-right: 0;
     position: relative;
   }
   span {
@@ -577,7 +577,7 @@ button:after {
   position: absolute;
   background: $yellow-bg;
   width: 40%;
-  height: 31vh;
+  height: 30vh;
   border-bottom-left-radius: 7px;
   transform: translateX(16.2rem);
   top: 62px;
@@ -585,4 +585,20 @@ button:after {
 }
 .visible {
   display: block;
+}
+@media (max-width: 380px) {
+  body{
+    width: 100vw;
+  }
+  .nav-bar{
+    height: 32vh;
+    transform: translateX(15.2rem);
+  }
+  
+}
+.green{
+  margin-left: 2rem;
+}
+.unicef{
+  width: 70%;
 }
