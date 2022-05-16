@@ -587,7 +587,7 @@ footer {
 
 @media (min-width: 56.25em) {
   body {
-    // max-width: 900px;
+    max-width: 1000px;
     margin-inline: auto;
     padding: 0;
   }
@@ -706,7 +706,8 @@ footer {
   .food_info {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: 1fr;
+    background: red;
     p {
       font-size: small;
       padding: 0.3rem 1rem !important;
