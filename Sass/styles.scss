@@ -702,8 +702,7 @@ footer {
     }
   }
   .education_info,
-  .clothing_info,
-  .food_info {
+  .clothing_info {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows:85%;
@@ -767,6 +766,32 @@ footer {
     button {
       margin: 2rem 1rem;
     }
+  }
+  .food_info{
+    display: flex;
+    flex-direction: row-reverse;
+   
+    .food-img{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    }
+    .food-goal{
+     height: 90%;
+     padding:0.5rem 1rem;
+    }
+
+img{
+  height: 232px;
+  width: 320px;
+  padding: 1rem;
+  margin: auto;
+  margin-left: 2rem;
+}
+
+p{
+  font-size: small;
+}
   }
   footer {
     display: grid;
