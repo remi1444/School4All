@@ -762,9 +762,6 @@ p{
 }
   }
 
-
-
-
  .education_info, .clothing_info{
     display: flex;
     flex-direction: row;
@@ -849,6 +846,10 @@ p{
         margin-left: 1rem;
       }
     }
+  }
+    .inner-btn {
+    flex-direction: row !important;
+    
   }
 }
 
