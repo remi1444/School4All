@@ -701,38 +701,38 @@ footer {
       font-size: small;
     }
   }
-  .education_info,
-  .clothing_info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows:85%;
+  // .education_info,
+  // .clothing_info {
+  //   display: grid;
+  //   grid-template-columns: 1fr 1fr;
+  //   grid-template-rows:85%;
     
-    p {
-      font-size: small;
-      padding: 0.5rem 1rem !important;
-    }
-    h3 {
-      // font-size: small;
-      padding: 0.5rem 1rem !important;
-    }
-    .education-img,
-    .food-img,
-    .clothing-img {
-      // display: flex;
-      // flex-direction: row;
-      justify-self: center;
-      align-self: center;
-    }
-    img {
-      width: 80%;
-      height: 80%;
-      padding: 1rem;
-      margin-right: 3rem;
-      // padding: 2rem 2rem 2rem 0;
-      justify-self: center;
-      align-self: center;
-    }
-  }
+  //   p {
+  //     font-size: small;
+  //     padding: 0.5rem 1rem !important;
+  //   }
+  //   h3 {
+  //     // font-size: small;
+  //     padding: 0.5rem 1rem !important;
+  //   }
+  //   .education-img,
+  //   .food-img,
+  //   .clothing-img {
+  //     // display: flex;
+  //     // flex-direction: row;
+  //     justify-self: center;
+  //     align-self: center;
+  //   }
+  //   img {
+  //     width: 80%;
+  //     height: 80%;
+  //     padding: 1rem;
+  //     margin-right: 3rem;
+  //     // padding: 2rem 2rem 2rem 0;
+  //     justify-self: center;
+  //     align-self: center;
+  //   }
+  // }
   .img {
     height: 20px;
     width: 10px;
@@ -793,6 +793,39 @@ p{
   font-size: small;
 }
   }
+
+
+
+
+ .education_info, .clothing_info{
+    display: flex;
+    flex-direction: row;
+   
+    .education-img, .clothing-img{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    }
+    .education-goal, .clothing-goal{
+     height: 90%;
+     padding:0.5rem 1rem;
+    }
+
+img{
+  height: 232px;
+  width: 320px;
+  padding: 1rem;
+  margin: auto;
+  margin-left: 2rem;
+}
+
+p{
+  font-size: small;
+}
+  }
+
+
+
   footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
