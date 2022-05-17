@@ -797,7 +797,7 @@ p{
   footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 20% 50%;
+    grid-template-rows: 200px 250px ;
     grid-gap: 1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -841,7 +841,7 @@ p{
       grid-row: 2;
       justify-self: center;
       align-self: center;
-      margin-top: 1rem;
+      margin-top: 0rem;
       h2{
         font-size: 20px;
       }
